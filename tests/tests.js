@@ -14,6 +14,11 @@ suite('CSV', function() {
         calculate();
         assert.deepEqual(finaltable.innerHTML, ["esto,es,un,unico,valor","este es otro"]);
     });
+    test('un valor', function() {
+        original.value = '"esto,es,un,unico,valor"';
+        calculate();
+        assert.deepEqual(finaltable.innerHTML, "esto,es,un,unico,valor");
+    });
     test('45C = 113F', function() {
         original.value = "45C";
         calculate();
