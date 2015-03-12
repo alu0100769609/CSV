@@ -16,7 +16,8 @@
     "karma-mocha": "^0.1.10",
     "karma-ng-html2js-preprocessor": "^0.1.2",
     "karma-phantomjs-launcher": "^0.1.4",
-    "mocha": "^2.2.1"
+    "mocha": "^2.2.1",
+    "supervisor": "^0.6.0"
   },
   "scripts": {
     "test": "./node_modules/karma/bin/karma start karma.conf.js --single-run --browsers PhantomJS"
