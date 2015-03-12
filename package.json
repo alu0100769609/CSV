@@ -16,7 +16,7 @@
     "mocha": "^2.2.1"
   },
   "scripts": {
-    "test": "./node_modules/karma/bin/karma start karma.conf.js --single-run --browsers Chrome"
+    "test": "./node_modules/karma/bin/karma start karma.conf.js --single-run --browsers PhantomJS"
   },
   "repository": {
     "type": "git",
