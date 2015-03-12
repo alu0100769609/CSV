@@ -1,12 +1,12 @@
 // See http://en.wikipedia.org/wiki/Comma-separated_values
 "use strict"; // Use ECMAScript 5 strict mode in browsers that support it
-
+/*
 $(document).ready(function() {
    $("button").click(function() {
      calculate();
    });
  });
-
+*/
 function calculate() {
   var result;
   var original       = document.getElementById("original");
